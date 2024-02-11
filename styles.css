@@ -1,0 +1,78 @@
+/* Your existing CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#contentContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.daySchedule {
+    width: 30%;
+    margin: 0 10px 20px 10px; /* Adjust spacing between day schedules */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.daySchedule img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Updated CSS for nutrition content */
+.nutritionContent {
+    text-align: center;
+}
+
+.nutritionContent .contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nutritionContent img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.nutritionContent p {
+    margin: 0;
+}
